@@ -1,0 +1,76 @@
+SYMANTEC CORPORATION
+PETER NORTON PRODUCT GROUP
+
+Welcome to the Norton DOS Editor!!!
+======================================================================
+ll/28/90
+
+
+General Information About NDE
+-----------------------------
+The Norton DOS Editor, NDE.COM, is a small memory resident
+program (TSR) which keeps track of your most recent DOS
+commands, so that you can recall and edit them.  NDE includes a
+simple yet powerful command line editor, which makes it easy
+for you to make quick, easy changes to your previous commands.
+NDE uses the same command format as the Norton Classic Editor.
+
+If you are like most DOS  users, the primitive command-line
+editor available under DOS just doesn't help you very much.  For
+example, DOS's own command editor only gives you access to the
+most recently issued command, when you may want to re-use a
+long, complicated command issued four commands prior to the
+current command.  It's likely that you really would like to have
+the full editing capabilities of a good visual editor (such as
+the Norton Classic Editor) when modifying a DOS command.  NDE
+solves those problems, but doesn't clutter your life with a
+bunch of other "features" that you may not need or want.
+
+How to Install NDE
+------------------
+To install the program, just enter the command NDE; you'll
+probably want to include it as part of your AUTOEXEC.BAT file.
+Once you've activated NDE, it keeps a record of your commands,
+so that you can recall them at a touch of the cursor keys.
+
+When installed, NDE uses about 3,500 bytes of memory; of this
+3,500, about 1,000 bytes are used to hold a copy of your
+commands.
+
+Basic Usage For NDE
+-------------------
+To recall a previous command to the command line, use the
+cursor up-arrow.  NDE keeps a list of recently issued commands.
+You can move back down through this list with the cursor-down
+key.
+
+NDE -- COMMAND SUMMARY
+-----------------------------------------------------------
+Left arrow          --  moves cursor left one character
+Right arrow         --  moves cursor right one character
+Ctrl-Left arrow     --  moves cursor left one word
+Ctrl-Right arrow    --  moves cursor right one word
+HOME                --  moves cursor to the beginnig of the line
+END                 --  moves cursor to the end of the line
+
+Up arrow            --  displays previous command
+F3                  --  same as up-arrow
+Down arrow          --  displays next command
+
+Backspace           --  deletes the character to the left of the cursor
+DEL                 --  deletes the character at the cursor
+Ctrl-W              --  deletes the word to the left of the cursor
+Alt-W               --  deletes the word to the right of the cursor
+Ctrl-L              --  deletes all characters left of the cursor
+Alt-L               --  deletes all characters right of the cursor
+Alt-K               --  deletes all characters on the line
+
+Ctrl-U              --  undeletes the text from the last delete
+                        command used
+Alt-U               --  same as Ctrl-U
+
+ESC                 --  clears command line (gets rid of
+			currently displayed command)
+
+==============================================================================
+End of README.NDE file.
